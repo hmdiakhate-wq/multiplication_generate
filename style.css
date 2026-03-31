@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centre vertical */
+    align-items: center;     /* centre horizontal */
+
+    background-color: #f5f7fa; /* petit bonus design */
+}
+
+.bloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center; /* 🔥 important pour centrer le contenu */
+
+    background-color: aliceblue;
+    width: 300px;  /* ❗ tu avais oublié */
+    padding: 20px;
+    border-radius: 12px; /* design moderne */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* effet carte */
+}
+
+.bloc input {
+    width: 90%;  /* ❗ important pour bien aligner */
+    height: 35px;
+    border-radius: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+.bloc button {
+    background-color: aqua;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+}
